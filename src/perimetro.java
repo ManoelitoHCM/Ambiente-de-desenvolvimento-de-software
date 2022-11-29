@@ -1,4 +1,6 @@
-import Calculadora;
+package src;
+
+import utils.Calculadora;
 
 public class perimetro {
 
