@@ -13,16 +13,16 @@ public class Calculadora {
 		return numeroA * numeroB;
 	}
 	
-	public double divisao() {
-		return 0 ;
+	public double divisao(double numeroA, double numeroB) {
+		return numeroA / numeroB;
 	}
 	
-	public double exponencial() {
-		return 0 ;
+	public double exponencial(double numeroA, double numeroB) {
+		return Math.pow(numeroA, numeroB);
 	}
 	
-	public double raizQuadrada() {
-		return 0 ;
+	public double raizQuadrada(double numeroA) {
+		return Math.sqrt(numeroA);
 	}
 	
     public double piso (double numeroA, double numeroB) {
