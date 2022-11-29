@@ -4,6 +4,7 @@ import utils.Calculadora;
 
 public class HoraExtra {
     double qtdeHoras;
+    double salarioHora;
     Calculadora calculadora = new Calculadora();
 
     public HoraExtra(double qtdeHoras, double salarioHora) {
