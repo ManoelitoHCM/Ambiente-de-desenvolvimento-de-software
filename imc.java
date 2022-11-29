@@ -1,4 +1,10 @@
+import Calculadora;
+
 public class imc {
-    double altura;
-    
+
+    Calculadora calculadora = new Calculadora();
+
+    public double calculoIMC(double altura, double peso) {
+		return calculadora.divisao(peso, calculadora.exponencial(altura));
+	}
 }
